@@ -1,0 +1,22 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <style>
+        #desktop-nav, nav{
+            position: sticky;
+            top: 0;
+            background-color: #000814;
+        }
+    </style>
+
+    <div class="blog-container">
+        <div class="blog-header">
+            <img src="{{post.image.url}}" alt="{{post.title}}" class="blog-img">
+            <h1 class="blog_title">{{post.title}}:</h1>
+            <p class="blog_detail">By {{ post.author }} {{ post.created_at|date:'M, Y' }}</p>
+        </div>
+        <div class="blog-content">
+            {{ post.content|safe }}
+        </div>
+    </div>
+
+{% endblock %}

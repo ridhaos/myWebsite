@@ -1,0 +1,288 @@
+{% extends "blog/base.html" %}
+{% block content %}
+
+    <section id="profile">
+        <div class="section__pic-container">
+            <img id="photoProfile" src="/media/assets/ridha-first.png" alt=""Ridha Noomane Profile Picture">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, Im</p>
+            <h1 class="title">Ridha Noomane</h1>
+            <p class="section__text__p2">Embedded System Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('/media/assets/cv_Noomane_Ridha.pdf')">
+                    RESUME
+                </button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">
+                    CONTACT
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="/media/assets/linkedin.png" alt="My linkedin profile" class="icon" onclick="location.href='https://linkedin.fr/in/ridhaos'">
+                <img src="/media/assets/github.png" alt="My github profile" class="icon" onclick="location.href='https://github.com/ridhaos'">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="section__text">
+            <p class="section__text__p1">Get To Know More</p>
+            <h1 class="big-behind">ABOUT</h1>
+            <h1 class="title">About Me</h1>
+            <div class="section-container">
+                <div class="section__pic_about-container">
+                    <img src="/media/assets/ridha-robot.png" alt="Profile about" class="about-pic"/>
+                </div>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <div class="details-container-img">
+                                <img src="/media/assets/experience.png" alt="experience icon" class="icon">
+                            </div>
+                            <div class="details-container-text">
+                                <h3 class="title-h3">Experience:</h3>
+                                <ul>
+                                    <li>
+                                        <h3 class="title-h4">NXP | 2021 - Present</h3>
+                                        <p>Digital Validation Engineer of Nfc product.</p>
+                                    </li>
+                                    <li>
+                                        <h3 class="title-h4">Elsys Design | 2018 - 2021</h3>
+                                        <p>Embedded Software Engineer.</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="details-container">
+                            <div class="details-container-img">
+                                <img src="/media/assets/education.png" alt="education icon" class="icon">
+                            </div>
+                            <div class="details-container-text">
+                                <h3 class="title-h3">Education:</h3>
+                                <ul>
+                                    <li>
+                                        <h3 class="title-h4">Polytech International | 2015 - 2018</h3>
+                                        <p>Engineering Degree in Embedded Software</p>
+                                    </li>
+                                    <li>
+                                        <h3 class="title-h4">Science Faculty of Tunis | 2012 - 2015</h3>
+                                        <p>Bachelor Degree in Electronics</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="text-container">
+                        <p class="presentation-letter">
+                            <b class="bold-title">I</b>'m a skilled Embedded Software Engineer with a diverse background 
+                            in embedded systems, artificial intelligence, IoT, and robotics. 
+                            With an engineering degree in Embedded Software and several years 
+                            of experience working with industry leaders like NXP, 
+                            i developed a deep expertise in firmware development, 
+                            hardware validation, and system integration. My technical proficiency 
+                            spans multiple programming languages, including C, Assembly, C++, Python, and Java, 
+                            as well as hands-on experience with microcontrollers, NFC technology, 
+                            and AI-driven solutions.
+                            In addition to my technical capabilities, I was been recognized 
+                            for innovative contributions, including being nominated for the World Summit 
+                            Award for a VR game and leading a personal assistant bot project that i was 
+                            later acquired by Amazon. I founded the Cyborgs Polytech Club to teach robotics to younger generations. 
+                            I'm so passion for cutting-edge technology, game developping and robotics.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="/media/assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#experience'">
+    </section>
+
+    <section id="experience">
+        <div class="section__text">
+            <p class="section__text__p1">Explore My</p>
+            <h1 class="big-behind">SKILLS</h1>
+            <h1 class="title">My Skills</h1>
+            <div class="experience-details-container">
+                <div class="experience-containers">
+                    <div class="details-containers-ex">
+                        <div class="article-container">
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>Embedded C</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>Python</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>ARM-M CPU architecture</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>RTOS</h3>
+                                    <p>Intermediare</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>OOP</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>Git</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>SVN</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>Java</h3>
+                                    <p>Intermediare</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>Assembly</h3>
+                                    <p>Intermediare</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>I2C</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>SPI</h3>
+                                    <p>Intermediare</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>SPMI</h3>
+                                    <p>Experienced</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>UART</h3>
+                                    <p>Intermediare</p>
+                                </div>
+                            </article>
+                            <article>
+                                <img src="/media/assets/checkmark.png" alt="checkmark icon" class="icon">
+                                <div>
+                                    <h3>Embedded Linux</h3>
+                                    <p>Beginner</p>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- <div class="details-containers-ex">
+                        <h2 class="experience-sub-title">Embedded Software Engineer</h2>
+                        <div class="article-container">
+                            
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <img src="/media/assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#project'">
+    </section>
+
+    <section id="project">
+        <div class="section__text">
+            <p class="section__text__p1">Browse My Blog</p>
+            <h1 class="big-behind b2">BLOG</h1>
+            <h1 class="title">My Blog</h1>
+            <div class="experience-details-container">
+                <div class="about-containers-project"> 
+                    {% for post in post_list %}
+                    <div class="details-container-project color-container">
+                        <div class="article-container">
+                            <img src="{{post.image.url}}" alt="{{post.title}}" class="project-img">
+                        </div>
+                        <div class="project-title-container">
+                            <h2 class="experience-sub-title project-title">{{post.title}}</h2>
+                        </div>
+                        <div class="project-btn">
+                            <div class="btn btn-color-2" onclick="href='{{post.link_github}}'">
+                                Github
+                            </div>
+                            <a href="{% url 'post_detail' post.slug %}">
+                                <div class="btn btn-color-1" id="btn-color-2-post">
+                                    See More
+                                </div>
+                            </a>
+                            
+                        </div>
+                    </div>
+                    {% empty %}
+                    <p>Aucun article pour le moment.</p>
+                    {% endfor %}
+                        
+                    </div>
+                </div>
+            </div>
+            <a href="{% url 'post_list' %}"><h2 id="explore-more">Explore More Articles...</h2></a>
+        </div>
+        <img src="/media/assets/arrow.png" alt="Arrow Icon" class="icon arrow" onclick="location.href='#contact'">
+    </section>
+
+    <section id="contact">
+        <div class="section__text">
+            <p class="section__text__p1">Get In Touch</p>
+            <h1 class="big-behind">CONTACT</h1>
+            <h1 class="title">Contact Me</h1>
+            <div class="contact-full-container">
+                <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                        <a href="mailto:'ridhaos.commerce@gmail.com'"><img src="/media/assets/email.png" alt="email icon" class="icon contact-icon"></a>
+                        <p><a href="mailto:'ridhaos.commerce@gmail.com'">MAIL TO ME</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                        <a target="_blank" rel="noopener noreferrer" onclick="location.href='https://linkedin.com/in/ridhaos'"><img src="/media/assets/linkedin.png" alt="linkedin icon" class="icon contact-icon linkedin"></a>
+                        <p><a target="_blank" rel="noopener noreferrer" onclick="location.href='https://linkedin.com/in/ridhaos'">LINKEDIN</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                        <a target="_blank" rel="noopener noreferrer" onclick="location.href='https://ridhaos.com'"><img src="/media/assets/website.png" alt="website icon" class="icon contact-icon"></a>
+                        <p><a target="_blank" rel="noopener noreferrer" onclick="location.href='https://ridhaos.com'">WEBSITE</a></p>
+                    </div>
+                </div>
+                <div class="section__pic_contact-container">
+                    <img src="/media/assets/contact-img.png" alt="Contact Image" class="contact-pic">
+                </div>
+            </div>
+        </div>
+    </section>
+
+{% endblock %}

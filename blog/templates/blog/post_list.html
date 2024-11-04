@@ -1,0 +1,25 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% for post in post_list %}
+    <ul class="cards-blog">
+        <li>
+            <a href="{% url 'post_detail' post.slug %}" class="card-blog">
+            <img src="{{post.image.url}}" class="card__image" alt="{{post.title}}" />
+            <div class="card__overlay">
+                <div class="card__header">
+                <svg class="card__arc" xmlns="http://www.w3.org/2000/svg"><path /></svg>                     
+                <img class="card__thumb" src="/media/assets/photo_de_profile_98.jpg" alt="" />
+                <div class="card__header-text">
+                    <h3 class="card__title">Ridha Noomane</h3>            
+                    <span class="card__status">{{post.title}}</span>
+                </div>
+                </div>
+                <p class="card__description">{{post.tag_tech}}</p>
+            </div>
+            </a>      
+        </li>
+    </ul>
+    {% empty %}
+    <p>Aucun article pour le moment.</p>
+    {% endfor %}
+{% endblock %}
