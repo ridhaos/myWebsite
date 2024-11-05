@@ -133,4 +133,9 @@
     .big-behind{
         font-size: 4em;
     }
+
+    .about-pic{
+        height: 200px;
+        width: 200px;
+    }
 }    
