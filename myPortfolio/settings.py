@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-p1a*c!gtabog@n(=k0@ui7o*qjto1^%&dqohk(qfh!t=ca40e_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['54.159.18.108', 'www.ridhaos.com', 'ridhaos.com']
+ALLOWED_HOSTS = []
 
 SECURE_SSL_REDIRECT = True
 SESSION_COOKIE_SECURE = True
