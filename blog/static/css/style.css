@@ -435,7 +435,10 @@ article .icon {
 
 .project-title {
     margin:10px auto;
-    color:#fff
+    color:#fff;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 #btn-color-2-post {
@@ -590,7 +593,9 @@ nav,.nav-links,.about-containers,.about-details-container {
 }
 
 #hamburger-nav,.about-containers-project::-webkit-scrollbar {
-    display:none
+    display:none;
+    position: relative;
+    z-index: 99;
 }
 
 #about,#experience,#project,#contact {
@@ -607,13 +612,17 @@ nav,.nav-links,.about-containers,.about-details-container {
   
 
 .cards-blog {
-    display: grid;
+    display: inline-grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
     margin: 4rem 5vw;
     padding: 0;
     list-style-type: none;
     width : 200px;
+}
+
+.increase-margin{
+    margin: 13rem 5vw;
 }
 
 .card-blog {

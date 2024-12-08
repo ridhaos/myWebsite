@@ -26,8 +26,11 @@ SECRET_KEY = 'django-insecure-p1a*c!gtabog@n(=k0@ui7o*qjto1^%&dqohk(qfh!t=ca40e_
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['52.200.216.119']
+ALLOWED_HOSTS = ['54.159.18.108', 'www.ridhaos.com', 'ridhaos.com']
 
+SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
 
 # Application definition
 
